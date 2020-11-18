@@ -1,0 +1,8 @@
+
+println("========"+ settings)
+apply from: file("./node_modules/@react-native-community/cli-platform-android/native_modules.gradle");
+// settings = "ReactNativeDemo"
+applyNativeModulesSettingsGradle(settings)
+
+include ':app'
+rootProject.name = "ReactNativeDemo"
