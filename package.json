@@ -3,7 +3,12 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "yarn react-native start"
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint .",
+    "bundle":"react-native bundle --entry-file index.js --platform android --dev false --bundle-output ./app/src/main/assets/index.android.bundle --assets-dest ./app/src/main/res/"
   },
   "dependencies": {
     "@babel/core": "*",

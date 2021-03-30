@@ -13,12 +13,23 @@ module.exports = {
       project: './error.xcworkspace',
     },
     android: {
-      sourceDir: './'
+      sourceDir: './',
+      appName:"app"
+//      stringsPath:["./app/src/main/res/values/strings.xml","./testlibrary/src/main/res/values/strings.xml"]
+//      manifestPath:["./app/src/main/AndroidManifest.xml","./testlibrary/src/main/AndroidManifest.xml"]
     },
   },
   reactNativePath: "./node_modules/react-native",
   root: "./"
 };
+
+//"android": {
+//"assetsPath": "D:\\mysoftware\\Android\\projects\\NoDesignModeFrameWork\\app\\src\\main\\assets",
+//      "mainFilePath": "D:\\mysoftware\\Android\\projects\\NoDesignModeFrameWork\\app\\src\\main\\java\\com\\a2017398956\\nodesignmodeframework\\MainApplication.java",
+//      "packageName": "com.a2017398956.nodesignmodeframework",
+//      "packageFolder": "com\\a2017398956\\nodesignmodeframework",
+//      "appName": "app"
+//    }
 
 
 

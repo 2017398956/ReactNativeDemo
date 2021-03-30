@@ -5,6 +5,7 @@ import {
   Text,
   View
 } from 'react-native';
+import { Colors } from 'react-native/Libraries/NewAppScreen';
 
 class HelloWorld extends React.Component {
   render() {
@@ -23,6 +24,8 @@ const styles = StyleSheet.create({
   hello: {
     fontSize: 20,
     textAlign: 'center',
+    color:'#125677' , 
+    backgroundColor:'white',
     margin: 10
   }
 });
