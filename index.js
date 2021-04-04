@@ -12,6 +12,7 @@ class HelloWorld extends React.Component {
     return (
       <View style={styles.container}>
         <Text style={styles.hello}>在已有 Android 项目中集成 ReactNative</Text>
+        <Text style={styles.hello}>在已有 Android 项目中集成 ReactNative</Text>
       </View>
     );
   }
