@@ -10,7 +10,7 @@ android {
 
     defaultConfig {
         applicationId "com.example.reactnativedemo"
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
         versionName "1.0"
@@ -47,8 +47,8 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
-    implementation "com.facebook.react:react-native:0.63.3" // From node_modules
-    implementation "org.webkit:android-jsc:r245459"
+    implementation "com.facebook.react:react-native:+" // From node_modules
+    implementation "org.webkit:android-jsc:+"
 
     implementation project(path: ':testlibrary')
 }

@@ -76,5 +76,75 @@
       <option name="name" value="maven3" />
       <option name="url" value="https://maven.aliyun.com/repository/google" />
     </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven6" />
+      <option name="name" value="maven6" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/react-native-safe-area-context/node_modules/react-native/android" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven7" />
+      <option name="name" value="maven7" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/react-native-safe-area-context/node_modules/jsc-android/dist" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven7" />
+      <option name="name" value="maven7" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/@react-native-community/masked-view/node_modules/jsc-android/dist" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven8" />
+      <option name="name" value="maven8" />
+      <option name="url" value="https://jitpack.io" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven6" />
+      <option name="name" value="maven6" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/@react-native-community/masked-view/node_modules/react-native/android" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MavenRepo" />
+      <option name="name" value="MavenRepo" />
+      <option name="url" value="https://repo.maven.apache.org/maven2/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven8" />
+      <option name="name" value="maven8" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/react-native-screens/node_modules/react-native/android" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven7" />
+      <option name="name" value="maven7" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/react-native-screens/node_modules/jsc-android/dist" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="MavenLocal" />
+      <option name="name" value="MavenLocal" />
+      <option name="url" value="file:/$USER_HOME$/.m2/repository/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven6" />
+      <option name="name" value="maven6" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/react-native-gesture-handler/node_modules/react-native/android" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven7" />
+      <option name="name" value="maven7" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/react-native-gesture-handler/node_modules/jsc-android/dist" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven7" />
+      <option name="name" value="maven7" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/react-native-reanimated/node_modules/jsc-android/dist" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven6" />
+      <option name="name" value="maven6" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/react-native-reanimated/node_modules/react-native/android" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="maven8" />
+      <option name="name" value="maven8" />
+      <option name="url" value="file:/$PROJECT_DIR$/node_modules/react-native-screens/android/node_modules/react-native/android" />
+    </remote-repository>
   </component>
 </project>

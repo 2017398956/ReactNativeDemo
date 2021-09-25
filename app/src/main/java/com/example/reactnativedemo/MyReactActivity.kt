@@ -3,6 +3,7 @@ package com.example.reactnativedemo
 import android.app.Activity
 import android.os.Bundle
 import android.view.KeyEvent
+import com.facebook.react.ReactActivity
 import com.facebook.react.ReactInstanceManager
 import com.facebook.react.ReactPackage
 import com.facebook.react.ReactRootView
@@ -11,7 +12,7 @@ import com.facebook.react.modules.core.DefaultHardwareBackBtnHandler
 import com.facebook.react.shell.MainReactPackage
 import com.facebook.soloader.SoLoader
 
-class MyReactActivity : Activity(), DefaultHardwareBackBtnHandler {
+class MyReactActivity : ReactActivity(), DefaultHardwareBackBtnHandler {
     private lateinit var mReactRootView: ReactRootView
     private lateinit var mReactInstanceManager: ReactInstanceManager
 

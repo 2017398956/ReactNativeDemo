@@ -1,7 +1,10 @@
 package com.example.reactnativedemo
 
+import android.app.Activity
 import android.app.Application
 import android.content.Context
+import android.os.Bundle
+import android.util.Log
 import com.facebook.react.*
 import com.facebook.soloader.SoLoader
 
@@ -33,6 +36,36 @@ class MyApplication : Application(), ReactApplication {
         super.onCreate()
         SoLoader.init(this, /* native exopackage */ false);
         initializeFlipper(this, reactNativeHost.reactInstanceManager);
+        registerActivityLifecycleCallbacks(object :ActivityLifecycleCallbacks{
+            override fun onActivityCreated(activity: Activity, savedInstanceState: Bundle?) {
+                Log.e("NFL" , activity.javaClass.name + " 启动")
+            }
+
+            override fun onActivityStarted(activity: Activity) {
+
+            }
+
+            override fun onActivityResumed(activity: Activity) {
+
+            }
+
+            override fun onActivityPaused(activity: Activity) {
+
+            }
+
+            override fun onActivityStopped(activity: Activity) {
+
+            }
+
+            override fun onActivitySaveInstanceState(activity: Activity, outState: Bundle) {
+
+            }
+
+            override fun onActivityDestroyed(activity: Activity) {
+
+            }
+
+        })
     }
 
     /**
