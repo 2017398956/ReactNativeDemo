@@ -10,18 +10,21 @@
     "lint": "eslint .",
     "bundle": "react-native bundle --entry-file index.js --platform android --dev false --bundle-output ./app/src/main/assets/index.android.bundle --assets-dest ./app/src/main/res/"
   },
+
   "dependencies": {
     "@babel/core": "*",
-    "@react-native-community/masked-view": "^0.1.10",
+    "@react-native-community/masked-view": "^0.1.11",
     "@react-navigation/bottom-tabs": "^5.11.9",
     "@react-navigation/drawer": "^5.12.5",
     "@react-navigation/native": "^5.9.4",
     "@react-navigation/stack": "^5.14.4",
     "react": "^17.0.2",
-    "react-native": "^0.64.0",
-    "react-native-gesture-handler": "^1.10.3",
+    "react-native": "^0.66.0",
+    "react-native-gesture-handler": "^2.1.0",
     "react-native-reanimated": "^2.1.0",
     "react-native-safe-area-context": "^3.2.0",
     "react-native-screens": "^3.0.0"
   }
 }
+
+

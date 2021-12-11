@@ -1,3 +1,5 @@
+# 由于 RN 升级没调好导致现在不能用了，这个 demo 先到这吧，升级太坑了，想运行的可以用之前的 commit
+
 ## 将 ReactNative 接入已有的 Android 项目
 	环境：react-native 0.63，windows10 ，android-studio4.1.1
 
